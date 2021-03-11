@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');
+
+
+/* ============ DropDown CSS desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+/* ============ desktop view .end// ============ */
+
+
+body {
+    background-color: #202020;
+    /* font-family: 'Akaya Telivigala', cursive; */
+    font-family: 'Comfortaa', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+.font-2nd{
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.font-2nd-h2{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 2.5rem;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.mid-hr {
+    background-color: #E74C3C;
+    color: #E74C3C;
+    min-height: 3px;
+    border-radius: 20px;
+    width: 180px;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.mid-hr-1 {
+    background-color: #E74C3C;
+    color: #E74C3C;
+    min-height: 3px;
+    border-radius: 10px;
+    width: 45px;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.nav-item {
+    padding: 0 14px;
+}
+
+.nav-active{
+    color: #E74C3C;
+}
+
+.dropdown-menu,
+.dropdown-item {
+    border: none;
+    color: #ffffff;
+    background-color: #202020;
+}
+
+.text-red {
+    color: #E74C3C;
+}
+
+.bg-red {
+    color: #E74C3C;
+}
+
+
+.header-text {
+    padding: 18px;
+}
+
+.header-text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.header-text p {
+    color: #B2B2B2;
+}
+
+.header-text a {
+    background-color: #E74C3C;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.hpic {
+    text-align: right;
+}
+
+.s-icon {
+    font-size: 40px;
+    color: #E74C3C;
+    padding: 15px 15px 15px 0px;
+}
+
+
+.pricing-box {
+    border: 2px solid #2e2e2e;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pricing-box:hover {
+    background-color: #2e2e2e;
+    border: 2px solid #2e2e2e;
+    border-radius: 15px;
+}
+
+.pricing-box .s-icon {
+    font-size: 50px;
+    color: #ffffff;
+    padding: 15px 15px 15px 0px;
+}
+
+.pricing-box .s-icon:hover {
+    color: #E74C3C;
+}
+
+.pricing-box .btn {
+    width: 150px;
+    background-color: #E74C3C;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.pricing-box .btn:hover {
+    background-color: #28B463;
+}
+
+.pborder-top{
+    border-top: 2px solid #2e2e2e;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
+
+
+
+
+.tm-box {
+    border: 2px solid #2e2e2e;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tm-box:hover {
+    background-color: #202020;
+    border: 2px solid #2e2e2e;
+    border-radius: 15px;
+}
+
+.tm-box .s-icon {
+    font-size: 50px;
+    color: #ffffff;
+    padding: 15px 15px 15px 0px;
+}
+
+.tm-box .s-icon:hover {
+    color: #E74C3C;
+}
+.tm-box-icon{
+    font-size: 50px;
+    color: #ffffff;
+}
+.tm-box-icon:hover{
+    font-size: 50px;
+    color: #E74C3C;
+}
+
+.tm-box a{
+    font-size: 18px;
+    color: #ffffff;
+}
+.tm-box a:hover{
+    font-size: 18px;
+    color: #E74C3C;
+}
+
+
+.discover {
+    background-color: #2e2e2e;
+}
+
+
+footer {
+    color: #ffffff;
+    background: 100% 100%;
+    padding: 80px 0px;
+    background-size: cover;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #E74C3C;
+}
+
+.social-icon {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.social-icon a {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.social-icon a:hover {
+    color: #E74C3C;
+}
+
+/* Conatct Page CSS */
+.cform .form-control{
+    background-color: #2e2e2e;
+    border: 2px solid #3e3e3e;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+
+    .hd-first{
+        flex-direction: column-reverse !important
+    }
+
+    .header-text {
+        padding: 10px 15px 2px 15px ;
+    }
+    
+    .header-text h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    
+    }
+    
+    .header-text p {
+        color: #B2B2B2;
+        font-size: .8rem;
+    }
+
+    .hpic {
+        width: 70%;
+        margin: auto;
+    }
+
+
+
+    .discover .d-flex {
+        display: initial;
+    }
+
+    .discover .flex-row-reverse {
+        flex-direction: column-reverse !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    header .row {
+        min-height: 90vh;
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width:576px) {
+   
+    
+}
+@media (min-width:768px) {
+    header .row {
+        min-height: 90vh;
+    }
+    
+    .header-text h2 {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
+    .header-text p {
+        color: #B2B2B2;
+        font-size: .7rem;
+    }
+    
+    .hpic {
+        width: 40%;
+        margin: auto;
+    }
+    .hd-first{
+        flex-direction:row !important
+    }
+
+    .pricing-box ul li{
+        font-size: .75rem;
+    }
+
+    .tm-box h4{
+        font-size: 1rem;
+    }
+    .tm-box h6{
+        font-size: .8rem;
+    }
+
+
+}
+@media (min-width:992px) {
+   
+    .header {
+        min-height: 90vh;
+    }
+
+    
+    .header-text h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    
+    }
+    
+    .header-text p {
+        color: #B2B2B2;
+        font-size: .9rem;
+    }
+
+    .hpic {
+        width: 50%;
+        margin: auto;
+    }
+
+    .pricing-box ul li{
+        font-size: 1rem;
+    }
+
+
+
+}
+@media (min-width:1200px) {
+   
+
+}
+@media (min-width:1400px) {
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media (min-width:576px) {
+   
+    
+}
+@media (min-width:768px) {
+   
+
+}
+@media (min-width:992px) {
+   
+
+}
+@media (min-width:1200px) {
+   
+
+}
+@media (min-width:1400px) {
+    
+
+} */
+
+
