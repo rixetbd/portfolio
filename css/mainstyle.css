@@ -5,11 +5,23 @@
 
 /* ============ DropDown CSS desktop view ============ */
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ color: #fff;  }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
 /* ============ desktop view .end// ============ */
 
 
@@ -23,11 +35,11 @@ a {
     text-decoration: none;
 }
 
-.font-2nd{
+.font-2nd {
     font-family: 'Akaya Telivigala', cursive;
 }
 
-.font-2nd-h2{
+.font-2nd-h2 {
     font-family: 'Akaya Telivigala', cursive;
     font-size: 2.5rem;
 }
@@ -67,7 +79,7 @@ li {
     padding: 0 14px;
 }
 
-.nav-active{
+.nav-active {
     color: #E74C3C;
 }
 
@@ -84,6 +96,10 @@ li {
 
 .bg-red {
     color: #E74C3C;
+}
+
+.bg-color2 {
+    background-color: #161616;
 }
 
 
@@ -104,12 +120,12 @@ li {
 .header-text a {
     background-color: #E74C3C;
     color: #ffffff;
-    border-radius: 20px;
 }
 
 .hpic {
     text-align: right;
 }
+
 
 .s-icon {
     font-size: 40px;
@@ -147,23 +163,18 @@ li {
     border: none;
     color: white;
     font-weight: 700;
-}
+} 
 
 .pricing-box .btn:hover {
     background-color: #28B463;
 }
 
-.pborder-top{
+.pborder-top {
     border-top: 2px solid #2e2e2e;
     border-bottom: none;
     border-left: none;
     border-right: none;
 }
-
-
-
-
-
 
 
 
@@ -190,20 +201,23 @@ li {
 .tm-box .s-icon:hover {
     color: #E74C3C;
 }
-.tm-box-icon{
+
+.tm-box-icon {
     font-size: 50px;
     color: #ffffff;
 }
-.tm-box-icon:hover{
+
+.tm-box-icon:hover {
     font-size: 50px;
     color: #E74C3C;
 }
 
-.tm-box a{
+.tm-box a {
     font-size: 18px;
     color: #ffffff;
 }
-.tm-box a:hover{
+
+.tm-box a:hover {
     font-size: 18px;
     color: #E74C3C;
 }
@@ -245,7 +259,7 @@ footer a:hover {
 }
 
 /* Conatct Page CSS */
-.cform .form-control{
+.cform .form-control {
     background-color: #2e2e2e;
     border: 2px solid #3e3e3e;
     color: #ffffff;
@@ -266,20 +280,28 @@ footer a:hover {
 
     /* For mobile phones: */
 
-    .hd-first{
+    .hd-first {
         flex-direction: column-reverse !important
     }
 
-    .header-text {
-        padding: 10px 15px 2px 15px ;
+    header {
+        min-height: auto;
     }
-    
+
+    .header-text-port {
+        padding-top: 8vh;
+    }
+
+    .header-text {
+        padding: 10px 15px 2px 15px;
+    }
+
     .header-text h2 {
         font-size: 1.5rem;
         font-weight: 700;
-    
+
     }
-    
+
     .header-text p {
         color: #B2B2B2;
         font-size: .8rem;
@@ -310,6 +332,14 @@ footer a:hover {
         min-height: 90vh;
     }
 
+    header {
+        min-height: 30vh;
+    }
+
+    .header-text-port {
+        padding-top: 10vh;
+    }
+
 }
 
 
@@ -318,59 +348,60 @@ footer a:hover {
 
 
 
-@media (min-width:576px) {
-   
-    
-}
+@media (min-width:576px) {}
+
 @media (min-width:768px) {
     header .row {
         min-height: 90vh;
     }
-    
+
     .header-text h2 {
         font-size: 1.8rem;
         font-weight: 700;
     }
-    
+
     .header-text p {
         color: #B2B2B2;
         font-size: .7rem;
     }
-    
+
     .hpic {
         width: 40%;
         margin: auto;
     }
-    .hd-first{
-        flex-direction:row !important
+
+    .hd-first {
+        flex-direction: row !important
     }
 
-    .pricing-box ul li{
+    .pricing-box ul li {
         font-size: .75rem;
     }
 
-    .tm-box h4{
+    .tm-box h4 {
         font-size: 1rem;
     }
-    .tm-box h6{
+
+    .tm-box h6 {
         font-size: .8rem;
     }
 
 
 }
+
 @media (min-width:992px) {
-   
+
     .header {
         min-height: 90vh;
     }
 
-    
+
     .header-text h2 {
         font-size: 2.5rem;
         font-weight: 700;
-    
+
     }
-    
+
     .header-text p {
         color: #B2B2B2;
         font-size: .9rem;
@@ -381,21 +412,17 @@ footer a:hover {
         margin: auto;
     }
 
-    .pricing-box ul li{
+    .pricing-box ul li {
         font-size: 1rem;
     }
 
 
 
 }
-@media (min-width:1200px) {
-   
 
-}
-@media (min-width:1400px) {
-    
+@media (min-width:1200px) {}
 
-}
+@media (min-width:1400px) {}
 
 
 
@@ -435,3 +462,167 @@ footer a:hover {
 } */
 
 
+
+/* Portfolio CSS */
+.shape-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: 100% 100%;
+    min-width: 100%;
+
+}
+
+.skill-box {
+    border: 2px solid #2e2e2e;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.skill-box:hover {
+    background-color: #2e2e2e;
+    border: 2px solid #2e2e2e;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.port-progress h5 {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.port-progress .progress {
+    height: .4rem;
+}
+
+.port-progress .progress .progress-bar {
+    background-color: #E74C3C;
+}
+
+.count-text section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5;
+    text-align: center;
+}
+
+.count-text h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.count-text h4 {
+    color: #E74C3C;
+    font-size: 20px;
+}
+.work-area div{
+    padding-top: 1rem;
+}
+
+.work-area h6{
+    padding-top: 18px;
+    color: #E74C3C;
+    font-size: 14px;
+}
+
+.work-area h4{
+    font-size: 18px;
+    color: white;
+}
+
+
+/* Clock */
+
+.cbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img/clock.png');
+    background-size: cover;
+    border: 4px solid #202020;
+    border-radius: 50%;
+    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
+        inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+        0 15px 15px rgba(255, 255, 255, 0.05),
+        inset 0 -15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.clock::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 10000;
+}
+
+.clock .hour,
+.clock .min,
+.clock .sec {
+    position: absolute;
+}
+
+.clock .hour .hr {
+    width: 160px;
+    height: 120px;
+}
+
+.clock .min .mn {
+    width: 190px;
+    height: 150px;
+}
+
+.clock .sec .sc {
+    width: 230px;
+    height: 180px;
+}
+
+.hr,
+.mn,
+.sc {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* position: absolute; */
+    border-radius: 50%;
+}
+
+.hr:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 60px;
+    background: #ff105e;
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+
+.mn:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 70px;
+    background: #fff;
+    z-index: 11;
+    border-radius: 6px 6px 0 0;
+}
+
+.sc:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 90px;
+    background: #fff;
+    z-index: 12;
+    border-radius: 6px 6px 0 0;
+}
+
+/* Clock */

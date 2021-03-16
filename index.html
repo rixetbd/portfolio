@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link href="css/mainstyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="css/rixet.effect.css">
 
     <title>Home - Muhammad Rabiul</title>
 </head>
 
 <body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <div id="progressbar"></div>
+    
     <!-- Start of Navber Area -->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -65,7 +74,7 @@
                 <p class="text-secondary">I am a professional WordPress developer and have been working in this field
                     since 2017. I enjoy creating modern and functional online experiences.</p>
 
-                <a class="btn btn-danger" href="#about">Contact me</a>
+                <a class="mr-btn" href="#">Contact me</a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 hpic">
                 <img src="img/hero-own.png" alt="" class="img-fluid">
@@ -196,7 +205,7 @@
                             </ul>
                         </section>
                         <section class="text-center text-white p-4 pborder-top">
-                            <a href="#" class="btn btn-success">$99</a>
+                            <a href="#" class="btn">$99</a>
                         </section>
 
                     </div>
@@ -295,7 +304,6 @@
                 </div>
             </div>
 
-
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="tm-box">
                     <section class="text-center text-white p-4">
@@ -342,11 +350,36 @@
                 <h2 class="text-white font-2nd">Discover How Design Can Help Your Business</h2>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 d-flex flex-row-reverse dis-btn">
-                <a href="#" class="btn btn-danger">Discover Now</a>
+                <a href="portfolio.html" class="btn btn-danger">Discover Now</a>
             </div>
         </div>
     </div>
     <!-- Discover Area -->
+
+    <!-- Clock Area -->
+    <div class="container pt-3 pb-5">
+        <div class="row d-flex align-items-center">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-white py-3">
+                <h1>Dont waste your time.</h1>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 py-3">
+                <div class="container cbody">
+                    <div class="clock" style="background-image: url(img/clock.png);">
+                        <div class="hour">
+                            <div class="hr" id="hr"></div>
+                        </div>
+                        <div class="min">
+                            <div class="mn" id="mn"></div>
+                        </div>
+                        <div class="sec">
+                            <div class="sc" id="sc"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Clock Area -->
 
 
     <!-- Start of Footer -->
@@ -357,18 +390,22 @@
         <br>
         Contact for Disgation
         <li class="social-icon">
-            <a href="https://www.facebook.com/rixet.rabiul/"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/rixetbd/"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://twitter.com/rixetbd"><i class="fab fa-twitter-square"></i></a>
-            <a href="behance.net/rixetbd/"><i class="fab fa-behance-square"></i></a>
-            <a href="https://www.linkedin.com/in/rixetbd/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://wa.link/b0dyi1"><i class="fab fa-whatsapp-square"></i></a>
+            <a target="_blank" href="https://www.facebook.com/rixet.rabiul/"><i class="fab fa-facebook-square"></i></a>
+            <a target="_blank" href="https://www.instagram.com/rixetbd/"><i class="fab fa-instagram-square"></i></a>
+            <a target="_blank" href="https://twitter.com/rixetbd"><i class="fab fa-twitter-square"></i></a>
+            <a target="_blank" href="behance.net/rixetbd/"><i class="fab fa-behance-square"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/rixetbd/"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://wa.link/b0dyi1"><i class="fab fa-whatsapp-square"></i></a>
         </li>
         Copyright &copy; 2019 Learned.<br>Development By Muhammad Rabiul
     </footer>
-    <!-- End of Footer -->
 
+    <!-- End of Footer -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mr.script.js"></script>
+
 </body>
+
 </html>
