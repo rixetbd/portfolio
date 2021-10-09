@@ -1,0 +1,59 @@
+.button {
+  background: transparent;
+  display: inline-block;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  color: var(--fade);
+  padding: 10px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.button:hover {
+  color: var(--info);
+  border-bottom: 1px solid var(--info);
+}
+
+.button:active,
+.button.is-checked {
+  color: var(--info);
+  border-bottom: 1px solid var(--info);
+}
+
+
+/* ---- button-group ---- */
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+}
+
+/* ---- isotope ---- */
+
+/* clear fix */
+.grid:after {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+/* ---- .element-item ---- */
+.element-item{
+  width: 33.333333%;
+  padding: 0;
+  margin: 0;
+}
+
+.element-item img{
+  position: absolute;
+  max-width: 100%;
+  padding: -15px 0px;
+}
