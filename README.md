@@ -1,4 +1,4 @@
-[![N|Solid](https://i.ibb.co/Lxh651s/portfolio.png)](http://rixetbd.com/)
+![Logo](https://i.ibb.co/Lxh651s/portfolio.png)
 
 ### Hi, I'm Muhammad Rabiul 👋
 👑 I am Web Developer <br>
